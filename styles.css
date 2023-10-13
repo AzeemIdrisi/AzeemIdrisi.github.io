@@ -83,3 +83,9 @@ main hr {
   height: 1px;
   border: 0;
 }
+
+p {
+  margin: 2rem;
+  color: rgb(179, 179, 179);
+  font-style: italic;
+}

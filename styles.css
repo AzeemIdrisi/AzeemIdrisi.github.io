@@ -72,3 +72,14 @@ nav ul li a:hover {
 .role {
   color: rgb(242, 242, 191);
 }
+
+.second {
+  max-width: 80vw;
+  margin: auto;
+}
+main hr {
+  background: rgb(255, 255, 255);
+  margin: 3rem;
+  height: 1px;
+  border: 0;
+}

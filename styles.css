@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 32, 59);
+  color: white;
+  font-family: poppins;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: slategrey;
+  height: 3rem;
+  padding: 20px;
+}
+
+.left {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.left:hover {
+  font-weight: 500;
+  font-size: 2rem;
+  color: rgb(197, 241, 255);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(242, 242, 191);
+  font-size: 1.2rem;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first .leftSection {
+  margin-bottom: 0;
+  width: 43%;
+  font-size: 3rem;
+}
+.first .rightSection {
+  /* background-color: rgb(23, 80, 131); */
+  margin: 0rem 1.2rem;
+}
+
+.name {
+  color: rgb(255, 3, 53);
+}
+
+.role {
+  color: rgb(242, 242, 191);
+}

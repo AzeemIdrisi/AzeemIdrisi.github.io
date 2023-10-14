@@ -84,8 +84,71 @@ main hr {
   border: 0;
 }
 
-p {
+.notice {
   margin: 2rem;
   color: rgb(179, 179, 179);
   font-style: italic;
+}
+
+.second {
+  max-width: 80vw;
+  margin: auto;
+}
+.second h1 {
+  font-size: 2rem;
+}
+
+footer {
+  background-color: rgb(40, 40, 40);
+}
+.footer-div {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0 0 0;
+  color: white;
+}
+.footer-div > div {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-div li {
+  list-style: none;
+  padding: 1%;
+}
+.footer-div li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: rgb(227, 255, 255);
+}
+
+footer .copyright {
+  font-size: smaller;
+  text-align: center;
+  color: gray;
+}
+
+footer h1 {
+  font-size: 1.5rem;
+}
+
+.footer-div h1,
+.footer-div ul {
+  width: 70%;
+}
+
+.btn {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn > button {
+  margin: 2rem;
+  font-size: large;
+  font-family: poppins;
+  padding: 0.8rem;
+  border-radius: 10px;
 }

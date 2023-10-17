@@ -40,5 +40,9 @@ footer .copyright {
 
 .btn > button {
   border-color: #526d82;
-  background-color: #dde6ed;
+  background-color: #4ea3e4;
+}
+
+.btn > button:hover {
+  background-color: #1491f0;
 }

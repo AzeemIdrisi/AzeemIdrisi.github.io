@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 body {
@@ -32,8 +33,10 @@ nav ul li {
   margin-right: 20px;
   list-style-type: none;
 }
-nav ul li a {
+nav ul li a,
+a {
   text-decoration: none;
+  color: white;
 }
 nav ul li a:hover {
   font-size: 1.2rem;
@@ -54,6 +57,10 @@ nav ul li a:hover {
   margin: 0rem 1.2rem;
 }
 
+section {
+  padding: 2rem;
+}
+
 .second {
   max-width: 80vw;
   margin: auto;
@@ -70,12 +77,28 @@ main hr {
   font-style: italic;
 }
 
-.second {
+.section {
   max-width: 80vw;
   margin: auto;
 }
-.second h1 {
+.section h1 {
   font-size: 2rem;
+}
+
+.about-text,
+.section {
+  margin: 1rem;
+}
+.section li {
+  margin: 1rem;
+}
+
+.third h2 {
+  margin: 1rem;
+}
+.third ul {
+  margin: 0 1rem;
+  display: flex;
 }
 
 .footer-div {

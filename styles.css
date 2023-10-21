@@ -164,6 +164,10 @@ footer h1 {
   align-items: center;
   flex-direction: row;
 }
+
+.chess a {
+  color: rgb(18, 132, 231);
+}
 @media (max-width: 500px) {
   .first {
     padding-left: 0;

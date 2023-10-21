@@ -165,9 +165,15 @@ footer h1 {
   flex-direction: row;
 }
 
+#projects a,
 .chess a {
-  color: rgb(18, 132, 231);
+  color: rgb(96, 181, 255);
 }
+#projects a:hover,
+.chess a:hover {
+  color: rgb(58, 127, 255);
+}
+
 @media (max-width: 500px) {
   .first {
     padding-left: 0;

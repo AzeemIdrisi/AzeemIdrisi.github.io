@@ -38,11 +38,14 @@ footer .copyright {
   color: gray;
 }
 
-.btn > button {
+.btn > div {
   border-color: #526d82;
   background-color: #4ea3e4;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 15px;
 }
 
-.btn > button:hover {
+.btn > div:hover {
   background-color: #1491f0;
 }

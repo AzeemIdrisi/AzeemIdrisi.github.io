@@ -13,6 +13,7 @@ nav {
 
 nav ul li a:hover {
   color: #9db2bf;
+  cursor: pointer;
 }
 
 nav ul li a {
@@ -45,4 +46,5 @@ footer .copyright {
 
 .btn > div:hover {
   background-color: #1491f0;
+  cursor: pointer;
 }

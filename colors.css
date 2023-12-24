@@ -39,12 +39,12 @@ footer .copyright {
   color: gray;
 }
 
-.btn > div {
+.btn div {
   border-color: #526d82;
   background-color: #4ea3e4;
 }
 
-.btn > div:hover {
+.btn div:hover {
   background-color: #1491f0;
   cursor: pointer;
 }

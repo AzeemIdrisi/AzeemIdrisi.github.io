@@ -199,6 +199,28 @@ footer h1 {
   padding-right: 3rem;
 }
 
+.connect {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+}
+
+.twitter {
+  border-radius: 5px;
+}
+
+.logo-git {
+  background: white;
+  border-radius: 10px;
+  padding: 0 0.2rem;
+}
+.logo-stack {
+  background: white;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
 @media (max-width: 500px) {
   .first {
     padding-left: 0;
@@ -228,7 +250,7 @@ footer h1 {
   .fourth-footer {
     justify-content: center;
   }
-  img {
+  img.Memoji {
     width: 90%;
   }
   .rightSection {
@@ -239,26 +261,11 @@ footer h1 {
     font-size: xx-small;
     text-align: center;
   }
-}
-
-.connect {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 90vw;
-}
-
-.twitter {
-  border-radius: 5px;
-}
-
-.logo-git {
-  background: white;
-  border-radius: 10px;
-  padding: 0 0.2rem;
-}
-.logo-stack {
-  background: white;
-  border-radius: 10px;
-  padding: 0.5rem;
+  .connect {
+    flex-direction: column;
+    width: 100%;
+  }
+  .connect a {
+    margin: 0.5rem;
+  }
 }

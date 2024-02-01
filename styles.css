@@ -240,3 +240,25 @@ footer h1 {
     text-align: center;
   }
 }
+
+.connect {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+}
+
+.twitter {
+  border-radius: 5px;
+}
+
+.logo-git {
+  background: white;
+  border-radius: 10px;
+  padding: 0 0.2rem;
+}
+.logo-stack {
+  background: white;
+  border-radius: 10px;
+  padding: 0.5rem;
+}

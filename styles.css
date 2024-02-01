@@ -205,6 +205,16 @@ footer h1 {
   align-items: center;
   width: 90vw;
 }
+.first-three,
+.second-three,
+.third-three,
+.fourth-three {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  width: 25%;
+}
 
 .twitter {
   border-radius: 5px;
@@ -216,7 +226,7 @@ footer h1 {
   padding: 0.2rem;
 }
 .logo-stack {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
   padding: 0.5rem;
 }
@@ -263,9 +273,11 @@ footer h1 {
   }
   .connect {
     flex-direction: column;
-    width: 100%;
+    overflow-x: auto;
   }
-  .connect a {
+  .connect div {
+    width: 70%;
+    flex-direction: row;
     margin: 0.5rem;
   }
 }

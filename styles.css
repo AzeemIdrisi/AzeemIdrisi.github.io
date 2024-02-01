@@ -272,12 +272,16 @@ footer h1 {
     text-align: center;
   }
   .connect {
+    width: 100%;
     flex-direction: column;
     overflow-x: auto;
   }
   .connect div {
-    width: 70%;
+    width: 90%;
     flex-direction: row;
     margin: 0.5rem;
+  }
+  .connect div a {
+    margin: 0.2rem;
   }
 }

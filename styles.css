@@ -300,4 +300,7 @@ footer h1 {
   .connect div a {
     margin: 1rem;
   }
+  .third .leftSection {
+    width: 100%;
+  }
 }

@@ -201,7 +201,7 @@ footer h1 {
 
 .connect {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: 90vw;
 }
@@ -214,7 +214,11 @@ footer h1 {
   justify-content: space-around;
   flex-direction: row;
   align-items: center;
-  width: 25%;
+  width: 35%;
+}
+
+.connect a {
+  margin: 2rem;
 }
 
 .twitter {
@@ -292,9 +296,8 @@ footer h1 {
   }
   .connect div {
     flex-direction: row;
-    margin: 0.5rem;
   }
   .connect div a {
-    margin: 0.2rem;
+    margin: 1rem;
   }
 }

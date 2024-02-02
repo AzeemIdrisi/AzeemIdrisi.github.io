@@ -209,6 +209,7 @@ footer h1 {
 .second-three,
 .third-three,
 .fourth-three {
+  min-width: max-content;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -229,6 +230,19 @@ footer h1 {
   background: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
   padding: 0.5rem;
+}
+.third {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90vw;
+}
+
+.third .leftSection {
+  width: 55%;
+}
+.third .rightSection {
+  width: fit-content;
 }
 
 @media (max-width: 500px) {
@@ -272,12 +286,11 @@ footer h1 {
     text-align: center;
   }
   .connect {
-    width: 90vw;
     flex-direction: column;
+    width: 100%;
     overflow-x: auto;
   }
   .connect div {
-    width: 90%;
     flex-direction: row;
     margin: 0.5rem;
   }

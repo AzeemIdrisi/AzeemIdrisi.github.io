@@ -203,7 +203,7 @@ footer h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90vw;
+  width: 85vw;
 }
 .first-three,
 .second-three,
@@ -214,7 +214,7 @@ footer h1 {
   justify-content: space-around;
   flex-direction: row;
   align-items: center;
-  width: 35%;
+  width: 25%;
 }
 
 .connect a {
@@ -302,5 +302,9 @@ footer h1 {
   }
   .third .leftSection {
     width: 100%;
+  }
+  .first-three {
+    margin-top: 2rem;
+    min-width: auto;
   }
 }

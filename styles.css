@@ -40,9 +40,9 @@ a {
   text-decoration: none;
   color: white;
 }
-nav ul li a:hover {
+/* nav ul li a:hover {
   font-size: 1.2rem;
-}
+} */
 .first {
   display: flex;
   justify-content: center;
@@ -311,7 +311,6 @@ footer h1 {
   nav .right {
     margin-top: 1rem;
     font-size: 0.8rem;
-    min-width: max-content;
   }
   nav ul li {
     margin: 0.75rem;

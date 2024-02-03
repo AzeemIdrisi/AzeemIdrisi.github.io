@@ -310,10 +310,10 @@ footer h1 {
 
   nav .right {
     margin-top: 1rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     min-width: max-content;
   }
   nav ul li {
-    margin: 0 0.75rem;
+    margin: 0.75rem;
   }
 }

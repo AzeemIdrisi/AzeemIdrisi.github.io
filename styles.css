@@ -316,3 +316,11 @@ footer h1 {
     margin: 0.75rem;
   }
 }
+
+.education {
+  display: flex;
+  justify-content: space-between;
+}
+/* .education li {
+  margin: 1rem 4rem;
+} */

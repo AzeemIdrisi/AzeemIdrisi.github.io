@@ -324,3 +324,13 @@ footer h1 {
 /* .education li {
   margin: 1rem 4rem;
 } */
+
+.skill-icons {
+  display: flex;
+  margin: auto;
+  justify-content: left;
+  align-items: center;
+}
+.skill-icons a {
+  margin: 0.5rem;
+}

@@ -123,6 +123,7 @@ main hr {
   padding: 1%;
   min-width: max-content;
 }
+
 .footer-div li a {
   list-style-type: none;
   text-decoration: none;
@@ -276,7 +277,14 @@ footer h1 {
     width: 90%;
     text-align: center;
   }
-
+  .footer-div li {
+    list-style: none;
+    padding: 1%;
+    min-width: 0;
+  }
+  .footer-div i {
+    margin: 0;
+  }
   .second-footer,
   .third-footer,
   .fourth-footer {

@@ -121,10 +121,14 @@ main hr {
 .footer-div li {
   list-style: none;
   padding: 1%;
+  min-width: max-content;
 }
 .footer-div li a {
   list-style-type: none;
   text-decoration: none;
+}
+.footer-div i {
+  margin-right: 0.8rem;
 }
 
 footer .copyright {

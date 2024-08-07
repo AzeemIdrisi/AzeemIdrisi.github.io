@@ -1,29 +1,63 @@
 import React from "react";
 import laptopImg from "../assets/Laptop.png";
-
+import { motion } from "framer-motion";
 function Contact() {
   return (
     <div className="border-b border-neutral-900 pb-20">
-      <h2
+      <motion.h2
+        initial={{ y: -50, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.3 }}
         className="my-20 text-center text-4xl 
  cursor-default hover:text-white transition-all duration-300"
       >
         Contact Me
-      </h2>
+      </motion.h2>
       <div className="text-center tracking-tighter flex flex-wrap gap-20 items-center justify-center w-full">
-        <div className="pb-10">
+        <motion.div
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: -100 }}
+          transition={{ duration: 0.5 }}
+          className="pb-10"
+        >
           <img src={laptopImg} className="h-80" />
-        </div>
+        </motion.div>
         <div>
           <div className="mt-8">
-            <h6 className="font-semibold text-neutral-400 text-sm ">
+            <motion.h6
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 0.5 }}
+              className="font-semibold text-neutral-400 text-sm "
+            >
               Business Email
-            </h6>
-            <p className="my-1 text-xl">azeemidrisi@protonmail.com</p>
+            </motion.h6>
+            <motion.p
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 0.5 }}
+              className="my-1 text-xl"
+            >
+              azeemidrisi@protonmail.com
+            </motion.p>
           </div>
           <div className="mt-8">
-            <h6 className="font-semibold text-neutral-400 text-sm">Linktree</h6>
-            <p className="my-1 text-xl">linktr.ee/AzeemIdrisi</p>
+            <motion.h6
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 0.5 }}
+              className="font-semibold text-neutral-400 text-sm"
+            >
+              Linktree
+            </motion.h6>
+            <motion.p
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 0.5 }}
+              className="my-1 text-xl"
+            >
+              linktr.ee/AzeemIdrisi
+            </motion.p>
           </div>
         </div>
       </div>

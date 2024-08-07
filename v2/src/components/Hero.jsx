@@ -47,7 +47,7 @@ function Hero() {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl lg:text-8xl font-light  tracking-tight lg:mt-16 cursor-default hover:text-white transition-all duration-300"
+              className="bg-gradient-to-r  from-blue-300  to-slate-400 bg-clip-text text-transparent pb-16 text-6xl lg:text-8xl font-light  tracking-tight lg:mt-16 cursor-default hover:text-white transition-all duration-300"
             >
               Azeem Idrisi
             </motion.h1>

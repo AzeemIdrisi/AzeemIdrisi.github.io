@@ -1,6 +1,6 @@
 import React from "react";
 import { FaReact, FaHtml5, FaCss3 } from "react-icons/fa6";
-import { SiDjango, SiJavascript } from "react-icons/si";
+import { SiDjango, SiJavascript, SiPython } from "react-icons/si";
 import { motion } from "framer-motion";
 
 function Projects() {
@@ -11,7 +11,7 @@ function Projects() {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.3, delay: 0.3 }}
         className="my-20 text-center text-4xl 
- cursor-default hover:text-white transition-all duration-300"
+ cursor-default hover:text-white transition-all duration-300 font-semibold"
       >
         Projects
       </motion.h2>
@@ -49,10 +49,8 @@ function Projects() {
             transition={{ duration: 0.5 }}
             className="mb-4 text-neutral-400"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eos
-            voluptate fugiat, asperiores tempora cupiditate minus fuga eligendi
-            perspiciatis repellat deserunt voluptatem voluptates sequi magni
-            soluta quae iure hic nisi.
+            An all-in-one hacking tool to remotely exploit Android devices using
+            ADB and Metasploit-Framework to get a Meterpreter session.
           </motion.p>
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
@@ -61,24 +59,8 @@ function Projects() {
             className="flex flex-wrap"
           >
             <span className="flex gap-2 w-fit items-center justify-center mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-500 cursor-default hover:text-white transition-all duration-300">
-              <FaReact />
-              React
-            </span>
-            <span className="flex gap-2 w-fit items-center justify-center mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-500 cursor-default hover:text-white transition-all duration-300">
-              <SiDjango />
-              Django
-            </span>
-            <span className="flex gap-2 w-fit items-center justify-center mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-500 cursor-default hover:text-white transition-all duration-300">
-              <FaHtml5 />
-              HTML
-            </span>
-            <span className="flex gap-2 w-fit items-center justify-center mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-500 cursor-default hover:text-white transition-all duration-300">
-              <FaCss3 />
-              CSS
-            </span>
-            <span className="flex gap-2 w-fit items-center justify-center mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-500 cursor-default hover:text-white transition-all duration-300">
-              <SiJavascript />
-              JavaScript
+              <SiPython />
+              Python
             </span>
           </motion.div>
         </motion.div>

@@ -9,7 +9,7 @@ function Contact() {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.3 }}
         className="my-20 text-center text-4xl 
- cursor-default hover:text-white transition-all duration-300"
+ cursor-default hover:text-white transition-all duration-300 font-semibold"
       >
         Contact Me
       </motion.h2>
@@ -38,7 +38,9 @@ function Contact() {
               transition={{ duration: 0.5 }}
               className="my-1 text-xl"
             >
-              azeemidrisi@protonmail.com
+              <a href="mailto:azeemidrisi@protonmail.com">
+                azeemidrisi@protonmail.com
+              </a>
             </motion.p>
           </div>
           <div className="mt-8">
@@ -56,7 +58,7 @@ function Contact() {
               transition={{ duration: 0.5 }}
               className="my-1 text-xl"
             >
-              linktr.ee/AzeemIdrisi
+              <a href="https://linktr.ee/AzeemIdrisi">linktr.ee/AzeemIdrisi</a>
             </motion.p>
           </div>
         </div>

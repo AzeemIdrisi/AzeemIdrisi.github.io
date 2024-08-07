@@ -20,7 +20,7 @@ function Skills() {
           className="flex  flex-col gap-5 items-center justify-center flex-wrap m-5"
         >
           <h1 className="text-2xl font-light">Programming Languages</h1>
-          <div className="flex gap-5 items-center justify-center ">
+          <div className="flex gap-5 items-center justify-center flex-wrap">
             <a
               href="https://www.cprogramming.com/"
               target="_blank"
@@ -58,7 +58,7 @@ function Skills() {
           className="flex flex-col gap-5 items-center justify-center flex-wrap m-5 "
         >
           <h1 className="text-2xl font-light">Web Development</h1>
-          <div className="flex gap-5 items-center justify-center ">
+          <div className="flex gap-5 items-center justify-center flex-wrap">
             <a
               href="https://www.djangoproject.com/"
               target="_blank"
@@ -111,7 +111,7 @@ function Skills() {
           className="flex flex-col gap-5 items-center justify-center flex-wrap m-5"
         >
           <h1 className="text-2xl font-light">App Development</h1>
-          <div className="flex gap-5 items-center justify-center ">
+          <div className="flex gap-5 items-center justify-center flex-wrap ">
             <a href="https://react.dev/" target="_blank" rel="noreferrer">
               <img src="https://skillicons.dev/icons?i=react" alt="icons" />
             </a>
@@ -131,7 +131,7 @@ function Skills() {
           className="flex flex-col gap-5 items-center justify-center flex-wrap m-5"
         >
           <h1 className="text-2xl font-light">Databases</h1>
-          <div className="flex gap-5 items-center justify-center ">
+          <div className="flex gap-5 items-center justify-center flex-wrap">
             <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
               <img src="https://skillicons.dev/icons?i=mongo" alt="icons" />
             </a>
@@ -147,7 +147,7 @@ function Skills() {
           className="flex flex-col gap-5 items-center justify-center flex-wrap m-5"
         >
           <h1 className="text-2xl font-light">Tools</h1>
-          <div className="flex gap-5 items-center justify-center ">
+          <div className="flex gap-5 items-center justify-center flex-wrap">
             <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
               <img src="https://skillicons.dev/icons?i=git" alt="icons" />
             </a>

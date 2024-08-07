@@ -83,7 +83,7 @@ function Hero() {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0, delay: 1 }}
               src={memojiPic}
-              className="h-96 cursor-default hover:h-[24.5rem] transition-all duration-300"
+              className="h-96 min-w-96 cursor-default hover:h-[24.5rem] transition-all duration-300"
             />
           </div>
         </div>

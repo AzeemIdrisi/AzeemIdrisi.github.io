@@ -20,7 +20,7 @@ function Contact() {
           transition={{ duration: 0.5 }}
           className="pb-10"
         >
-          <img src={laptopImg} className="h-80" />
+          <img src={laptopImg} className="h-80 min-h-80" />
         </motion.div>
         <div>
           <div className="mt-8">

@@ -26,7 +26,7 @@ function Projects() {
             src="https://github.com/AzeemIdrisi/PhoneSploit-Pro/raw/main/docs/Screenshot-1.png"
             alt=""
             width={250}
-            className="mb-6 rounded-xl"
+            className="mb-6 w-full lg:w-64 rounded-xl"
           />
         </motion.div>
         <motion.div

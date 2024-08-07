@@ -8,14 +8,14 @@ function Navbar() {
       whileInView={{ opacity: 1, y: 0 }}
       initial={{ opacity: 0, y: -50 }}
       transition={{ duration: 0.3, delay: 1.3 }}
-      className=" flex items-center justify-between py-6 mb-20 lg:mb-0"
+      className=" flex flex-wrap justify-center items-center lg:justify-between py-6 mb-20 lg:mb-0"
     >
       <div className="flex flex-shrink-0 items-center">
         <h1 className="text-2xl font-bold mx-8 cursor-default hover:text-white transition-all duration-300">
           Azeem Idrisi
         </h1>
       </div>
-      <div className="m-8 flex flex-wrap items-center justify-center gap-4 ">
+      <div className="m-8 flex  items-center justify-center gap-4 ">
         <a href="https://www.linkedin.com/in/azeem5202">
           <FaLinkedinIn
             size={24}

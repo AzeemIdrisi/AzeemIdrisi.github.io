@@ -22,7 +22,11 @@ function About() {
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex items-center justify-center">
-            <img src={profilePic} alt="" className=" h-96 rounded-3xl" />
+            <img
+              src={profilePic}
+              alt=""
+              className=" h-96 min-w-96 rounded-3xl"
+            />
           </div>
         </motion.div>
         <motion.div

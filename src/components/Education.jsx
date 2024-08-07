@@ -13,7 +13,7 @@ function Education() {
         Education
       </motion.h2>
 
-      <div className="mb-8 flex flex-wrap lg:justify-center gap-48">
+      <div className="mb-8 flex flex-wrap lg:justify-center lg:gap-48 gap-20">
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}

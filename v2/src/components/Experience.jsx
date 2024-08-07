@@ -35,7 +35,7 @@ function Experience() {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="font-bold text-lg text-blue-500"
+            className="font-bold text-xl text-slate-500"
           >
             Carths Group
           </motion.h5>
@@ -53,10 +53,12 @@ function Experience() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-4 text-neutral-400"
           >
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio
-            accusamus animi delectus, quidem officia, doloribus dolorem
-            repudiandae in qui, similique exercitationem aut aspernatur esse
-            iure ratione hic. Rerum, illo cupiditate?
+            • Developed over 5 visually appealing, responsive and functional
+            websites using HTML, CSS, JavaScript, React, Django, and Webflow.
+            <br /> • Assisted clients in establishing their online presence,
+            planning an efficient digital strategy, and integrating services,
+            resulting in a 30% increase in lead generation and a 25% boost in
+            customer engagement
           </motion.p>
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}

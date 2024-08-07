@@ -25,7 +25,7 @@ function About() {
             <img
               src={profilePic}
               alt=""
-              className=" h-96 min-w-96 rounded-3xl"
+              className=" lg:h-96 lg:min-w-96 h-80 min-w-80 rounded-3xl"
             />
           </div>
         </motion.div>

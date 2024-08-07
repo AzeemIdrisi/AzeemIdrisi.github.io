@@ -47,20 +47,18 @@ function Hero() {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r  from-blue-300  to-slate-400 bg-clip-text text-transparent pb-16 text-6xl lg:text-8xl font-light  tracking-tight lg:mt-16 cursor-default hover:text-white transition-all duration-300"
+              className="bg-gradient-to-r  from-blue-300  to-slate-400 bg-clip-text text-transparent lg:pb-16 pb-6 text-6xl lg:text-8xl font-light  tracking-tight lg:mt-16 cursor-default hover:text-white transition-all duration-300"
             >
               Azeem Idrisi
             </motion.h1>
-            <div className="flex justify-center items-center text-4xl">
+            <div className="flex justify-center items-center lg:text-4xl text-2xl">
               <motion.span
                 ref={el}
                 variants={container(0.3)}
                 initial="hidden"
                 animate="visible"
-                className="bg-gradient-to-r from-purple-300 via-slate-400 to-blue-500 bg-clip-text text-4xl tracking-tight text-transparent cursor-default hover:text-white/50 transition-all duration-300"
-              >
-                Full Stack Developer
-              </motion.span>
+                className="bg-gradient-to-r from-purple-300 via-slate-400 to-blue-500 bg-clip-text text-2xl lg:text-4xl tracking-tight text-transparent cursor-default hover:text-white/50 transition-all duration-300"
+              ></motion.span>
             </div>
             <motion.p
               variants={container(0.8)}
@@ -83,7 +81,7 @@ function Hero() {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0, delay: 1 }}
               src={memojiPic}
-              className="h-96 min-w-96 cursor-default hover:h-[24.5rem] transition-all duration-300"
+              className="lg:h-96 lg:min-w-96 h-80 min-h-80  cursor-default hover:h-[24.5rem] transition-all duration-300"
             />
           </div>
         </div>

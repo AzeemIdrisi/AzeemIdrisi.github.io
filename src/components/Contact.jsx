@@ -8,7 +8,7 @@ function Contact() {
         id="contact"
         initial={{ y: -50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.3 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
         className="my-20 text-center text-4xl 
  cursor-default hover:text-white transition-all duration-300 font-semibold"
       >
@@ -18,7 +18,7 @@ function Contact() {
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
           className="pb-10"
         >
           <img src={laptopImg} className="h-80 min-h-80" />
@@ -28,7 +28,7 @@ function Contact() {
             <motion.h6
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
               className="font-semibold text-neutral-400 text-sm "
             >
               Business Email
@@ -36,7 +36,7 @@ function Contact() {
             <motion.p
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
               className="my-1 text-xl"
             >
               <a href="mailto:azeemidrisi@protonmail.com">
@@ -48,7 +48,7 @@ function Contact() {
             <motion.h6
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
               className="font-semibold text-neutral-400 text-sm"
             >
               Linktree
@@ -56,7 +56,7 @@ function Contact() {
             <motion.p
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
               className="my-1 text-xl"
             >
               <a href="https://linktr.ee/AzeemIdrisi">linktr.ee/AzeemIdrisi</a>

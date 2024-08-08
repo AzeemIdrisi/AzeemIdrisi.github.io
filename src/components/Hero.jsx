@@ -10,7 +10,7 @@ const container = (delay) => ({
   visible: {
     x: 0,
     opacity: 1,
-    transition: { duration: 0.2, delay: delay },
+    transition: { duration: 0.5, delay: delay },
   },
 });
 function Hero() {
@@ -46,7 +46,7 @@ function Hero() {
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start lg:p-10">
             <motion.h1
-              variants={container(0)}
+              variants={container(0.5)}
               initial="hidden"
               animate="visible"
               className="bg-gradient-to-r  from-blue-300  to-slate-400 bg-clip-text text-transparent lg:pb-16 pb-6 text-6xl lg:text-8xl font-light  tracking-tight lg:mt-16 cursor-default hover:text-white transition-all duration-300"
@@ -56,14 +56,14 @@ function Hero() {
             <div className="flex justify-center items-center lg:text-4xl text-2xl">
               <motion.span
                 ref={el}
-                variants={container(0.3)}
+                variants={container(0.7)}
                 initial="hidden"
                 animate="visible"
                 className="bg-gradient-to-r from-purple-300 via-slate-400 to-blue-500 bg-clip-text text-2xl lg:text-4xl tracking-tight text-transparent cursor-default hover:text-white/50 transition-all duration-300"
               ></motion.span>
             </div>
             <motion.p
-              variants={container(0.8)}
+              variants={container(1.2)}
               initial="hidden"
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter lg:text-left text-center"
@@ -83,7 +83,7 @@ function Hero() {
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 0.3 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
               className="flex flex-row flex-wrap items-center justify-start gap-5 mt-8"
             >
               <a href="https://github.com/AzeemIdrisi">
@@ -107,7 +107,7 @@ function Hero() {
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
               src={memojiPic}
               className="lg:h-96 lg:min-w-96 h-80 min-h-80 "
             />

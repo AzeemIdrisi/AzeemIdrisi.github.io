@@ -6,8 +6,8 @@ function Navbar() {
   return (
     <motion.nav
       animate={{ opacity: 1, y: 0 }}
-      initial={{ opacity: 0, y: -50 }}
-      transition={{ duration: 0.3, delay: 1 }}
+      initial={{ opacity: 0, y: -100 }}
+      transition={{ duration: 0.5, delay: 0.5 }}
       className=" flex flex-wrap justify-center items-center lg:justify-between py-6 mb-16 lg:mb-0"
     >
       <div className="flex flex-shrink-0 items-center">

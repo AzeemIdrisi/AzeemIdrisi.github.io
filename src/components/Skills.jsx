@@ -7,7 +7,7 @@ function Skills() {
       <motion.h2
         initial={{ y: -50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.3, delay: 0.3 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
         className="font-semibold my-20 text-center text-4xl cursor-default hover:text-white transition-all duration-300"
       >
         Skills
@@ -16,7 +16,7 @@ function Skills() {
         <motion.div
           initial={{ y: -50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
           className="flex  flex-col gap-5 items-center justify-center flex-wrap m-5"
         >
           <h1 className="text-2xl font-light">Programming Languages</h1>
@@ -54,7 +54,7 @@ function Skills() {
         <motion.div
           initial={{ y: -50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
           className="flex flex-col gap-5 items-center justify-center flex-wrap m-5 "
         >
           <h1 className="text-2xl font-light">Web Development</h1>
@@ -107,7 +107,7 @@ function Skills() {
         <motion.div
           initial={{ y: -50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
           className="flex flex-col gap-5 items-center justify-center flex-wrap m-5"
         >
           <h1 className="text-2xl font-light">App Development</h1>
@@ -130,7 +130,7 @@ function Skills() {
         <motion.div
           initial={{ y: -50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
           className="flex flex-col gap-5 items-center justify-center flex-wrap m-5"
         >
           <h1 className="text-2xl font-light">Databases</h1>
@@ -146,7 +146,7 @@ function Skills() {
         <motion.div
           initial={{ y: -50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
           className="flex flex-col gap-5 items-center justify-center flex-wrap m-5"
         >
           <h1 className="text-2xl font-light">Tools</h1>

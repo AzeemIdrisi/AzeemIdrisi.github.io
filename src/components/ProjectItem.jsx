@@ -8,6 +8,7 @@ function ProjectItem({ link, img, title, description, children, screenshot }) {
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
           className="w-full lg:w-1/4"
         >
           <img
@@ -19,13 +20,13 @@ function ProjectItem({ link, img, title, description, children, screenshot }) {
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
           className="w-full max-w-xl lg:w-3/4"
         >
           <motion.h6
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-2 font-semibold"
           >
             {title}
@@ -33,7 +34,7 @@ function ProjectItem({ link, img, title, description, children, screenshot }) {
           <motion.p
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-4 text-neutral-400"
           >
             {description}

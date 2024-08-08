@@ -8,7 +8,7 @@ function About() {
       <motion.h2
         initial={{ y: -50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.3, delay: 0.3 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
         className="my-20 text-center text-4xl 
  cursor-default hover:text-white transition-all duration-300 font-semibold"
       >

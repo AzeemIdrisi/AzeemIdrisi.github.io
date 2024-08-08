@@ -254,9 +254,7 @@ function Projects() {
           "A mini project for college hackathon that provides a hassle-free solution for marking attendance within college network using QR Code and Local network IP Address."
         }
         screenshot
-        img={
-          "https://private-user-images.githubusercontent.com/112647789/266789876-e4c9f2d8-6b8e-44de-a63d-f7e5db45383e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjMxMDY4NjQsIm5iZiI6MTcyMzEwNjU2NCwicGF0aCI6Ii8xMTI2NDc3ODkvMjY2Nzg5ODc2LWU0YzlmMmQ4LTZiOGUtNDRkZS1hNjNkLWY3ZTVkYjQ1MzgzZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwODA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDgwOFQwODQyNDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hY2ZhOTNjMDUwNDFiYWIyYmY0YmJlY2MyM2ZiMDk4NDQxNWIxOWU4YTdkOWVmZDk3ZWZjODcwNDU2YWE5MDVkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.x_vxhNES1MDYdVYWu58edqPZrU79GnTLlN36MlzwweM"
-        }
+        img={"qrattendance.png"}
       >
         <TechItem>
           <>
@@ -288,9 +286,7 @@ function Projects() {
           "A web app to preview and download all pictures, videos and reels from an Instagram Post based on instaloader."
         }
         screenshot
-        img={
-          "https://private-user-images.githubusercontent.com/112647789/335827691-2cf70485-c61e-4668-90f8-515fa124c769.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjMxMDY5NTYsIm5iZiI6MTcyMzEwNjY1NiwicGF0aCI6Ii8xMTI2NDc3ODkvMzM1ODI3NjkxLTJjZjcwNDg1LWM2MWUtNDY2OC05MGY4LTUxNWZhMTI0Yzc2OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwODA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDgwOFQwODQ0MTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mNmFkYzA4MDM5M2NmMGU4ZjRmMzNhOWQyNjJhYTU1YjA5MDcwNTdkOGIxMzg5ZGMwOTBiY2NkNDYyYjIxMzI3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.jxB9i4iCoLsN5lrMMxcAV1-EzPUR6v5EmvGF1Vh4Qkw"
-        }
+        img={"instaloaderweb.png"}
       >
         <TechItem>
           <>
@@ -322,9 +318,7 @@ function Projects() {
           "Noted is a simple frontend clone of Google Keep, built with React and Material UI."
         }
         screenshot
-        img={
-          "https://private-user-images.githubusercontent.com/112647789/311496417-836c9a51-c71d-4541-bb87-e13f595a475a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjMxMDcwNzcsIm5iZiI6MTcyMzEwNjc3NywicGF0aCI6Ii8xMTI2NDc3ODkvMzExNDk2NDE3LTgzNmM5YTUxLWM3MWQtNDU0MS1iYjg3LWUxM2Y1OTVhNDc1YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwODA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDgwOFQwODQ2MTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yMjJjMGQ2Y2RkMmE0NmI3NzY1ZjJlMTFkMTJlMGNiNThlYzQ1ZGQxYjUxZDY2NTkxNTExZjhkYWE3NWY1OTY2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.We55xfDTYmY4gGOV7WjZGFbCFozeRc1F0vJ8gFk4Rfs"
-        }
+        img={"noted.png"}
       >
         <TechItem>
           <>
@@ -340,7 +334,7 @@ function Projects() {
           "A Twitter/X Bot that utilizes GitHub Actions to automatically tweet your recently played song on Spotify on a manually scheduled basis."
         }
         screenshot
-        img={"https://t2.tudocdn.net/677646?w=824&h=494"}
+        img={"/tweetify.jpeg"}
       >
         <TechItem>
           <>

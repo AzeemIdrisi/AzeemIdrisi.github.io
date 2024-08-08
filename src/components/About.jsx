@@ -35,7 +35,7 @@ function About() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="w-full lg:w-1/2 "
         >
-          <div className="my-8 lg:my-0 lg:justify-start justify-center">
+          <div className="my-8 lg:my-0 lg:justify-start justify-center lg:text-left text-center">
             <p className="py-6 max-w-xl">
               I am a Computer Science undergraduate with a strong interest in
               technology and coding. I love to build projects and learn new

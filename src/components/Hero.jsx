@@ -66,7 +66,7 @@ function Hero() {
               variants={container(0.8)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-xl py-6 font-light tracking-tighter lg:text-left text-center"
             >
               I am a <strong className="font-semibold">Tech Enthusiast</strong>{" "}
               and a{" "}
@@ -107,7 +107,7 @@ function Hero() {
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0, delay: 1 }}
+              transition={{ duration: 0.5 }}
               src={memojiPic}
               className="lg:h-96 lg:min-w-96 h-80 min-h-80 "
             />

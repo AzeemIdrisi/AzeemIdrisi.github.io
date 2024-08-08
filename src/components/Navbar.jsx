@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function Navbar() {
   return (
     <motion.nav
-      whileInView={{ opacity: 1, y: 0 }}
+      animate={{ opacity: 1, y: 0 }}
       initial={{ opacity: 0, y: -50 }}
       transition={{ duration: 0.3, delay: 1.3 }}
       className=" flex flex-wrap justify-center items-center lg:justify-between py-6 mb-16 lg:mb-0"

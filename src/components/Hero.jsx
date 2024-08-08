@@ -2,6 +2,8 @@ import React from "react";
 import memojiPic from "../assets/Memoji.png";
 import { motion } from "framer-motion";
 import Typed from "typed.js";
+import { FaGithub } from "react-icons/fa6";
+import { MdAlternateEmail } from "react-icons/md";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -66,12 +68,38 @@ function Hero() {
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
             >
-              I am a Tech Enthusiast and a passionate Software Developer from
-              India, currently in my final year pursuing a Bachelor of
-              Technology Degree in Computer Science & Engineering. My passion
-              for technology drives me to constantly explore and innovate in the
-              world of technology.
+              I am a <strong className="font-semibold">Tech Enthusiast</strong>{" "}
+              and a{" "}
+              <strong className="font-semibold">
+                Passionate Software Developer
+              </strong>{" "}
+              from India, currently in my final year pursuing a{" "}
+              <strong className="font-semibold">
+                Bachelor of Technology Degree in Computer Science & Engineering.
+              </strong>{" "}
+              My passion for technology drives me to constantly explore and
+              innovate in the world of technology.
             </motion.p>
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.3 }}
+              className="flex flex-row flex-wrap items-center justify-start gap-5 mt-8"
+            >
+              <a href="https://github.com/AzeemIdrisi">
+                {" "}
+                <h2 className="border-2 border-neutral-300 rounded-full px-4 py-2 font-semibold flex justify-center items-center gap-2 hover:bg-white hover:text-black hover:border-white transition-all duration-500 cursor-pointer">
+                  <FaGithub />
+                  Visit GitHub
+                </h2>
+              </a>
+              <a href="#contact">
+                <h2 className="border-2 border-neutral-300 rounded-full px-4 py-2 font-semibold flex justify-center items-center gap-1  hover:bg-white hover:text-black hover:border-white transition-all duration-500 cursor-pointer">
+                  <MdAlternateEmail />
+                  Contact Me
+                </h2>
+              </a>
+            </motion.div>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8 overflow-hidden">

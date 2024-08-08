@@ -112,8 +112,11 @@ function Skills() {
         >
           <h1 className="text-2xl font-light">App Development</h1>
           <div className="flex gap-5 items-center justify-center flex-wrap ">
-            <a href="https://react.dev/" target="_blank" rel="noreferrer">
-              <img src="https://skillicons.dev/icons?i=react" alt="icons" />
+            <a href="https://reactnative.dev/" target="_blank" rel="noreferrer">
+              <img
+                src="https://skillicons.dev/icons?i=react&theme=light"
+                alt="icons"
+              />
             </a>
             <a
               href="https://www.kotlinlang.org/"

@@ -5,6 +5,7 @@ function Contact() {
   return (
     <div className="border-b border-neutral-900 pb-20">
       <motion.h2
+        id="contact"
         initial={{ y: -50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.3 }}

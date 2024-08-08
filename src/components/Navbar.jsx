@@ -11,9 +11,12 @@ function Navbar() {
       className=" flex flex-wrap justify-center items-center lg:justify-between py-6 mb-16 lg:mb-0"
     >
       <div className="flex flex-shrink-0 items-center">
-        <h1 className="text-2xl font-bold mx-8 cursor-default hover:text-white transition-all duration-300">
+        <a href="https://azeemidrisi.github.io/">
+          {/* <h1 className="text-2xl font-bold mx-8 cursor-default hover:text-white transition-all duration-300">
           Azeem Idrisi
-        </h1>
+        </h1> */}
+          <img src="/favicon.png" className="w-12 h-12 lg:ml-10 " alt="" />
+        </a>
       </div>
       <div className="m-8 flex  items-center justify-center gap-4 ">
         <a href="https://www.linkedin.com/in/azeem5202">

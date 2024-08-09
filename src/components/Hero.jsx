@@ -53,7 +53,12 @@ function Hero() {
             >
               Azeem Idrisi
             </motion.h1>
-            <div className="flex justify-center items-center lg:text-4xl text-2xl">
+            <motion.div
+              variants={container(1)}
+              initial="hidden"
+              animate="visible"
+              className="flex justify-center items-center lg:text-4xl text-2xl"
+            >
               <motion.span
                 ref={el}
                 variants={container(0.7)}
@@ -61,7 +66,7 @@ function Hero() {
                 animate="visible"
                 className="bg-gradient-to-r from-purple-300 via-slate-400 to-blue-500 bg-clip-text text-2xl lg:text-4xl tracking-tight text-transparent cursor-default hover:text-white/50 transition-all duration-300"
               ></motion.span>
-            </div>
+            </motion.div>
             <motion.p
               variants={container(1.2)}
               initial="hidden"

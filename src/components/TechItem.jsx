@@ -6,7 +6,7 @@ function TechItem({ children }) {
       whileInView={{ opacity: 1, x: 0 }}
       initial={{ opacity: 0, x: 100 }}
       transition={{ duration: 0.5, delay: 0.3 }}
-      className="flex flex-wrap"
+      className="flex flex-wrap justify-center items-center lg:justify-start "
     >
       {children.length > 1 ? (
         children.map((tech, index) => (

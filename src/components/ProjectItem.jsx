@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 function ProjectItem({ link, img, title, description, children, screenshot }) {
   return (
     <a href={link} className="cursor-pointer">
-      <div className="mb-8 flex flex-wrap lg:justify-center">
+      <div className="mb-8 flex flex-wrap lg:justify-center lg:text-left text-center">
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="w-full lg:w-1/4"
+          className="w-full lg:w-1/4 flex justify-center items-center lg:mx-10"
         >
           <img
             src={img}

@@ -39,8 +39,11 @@ function Contact() {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="my-1 text-xl"
             >
-              <a href="mailto:azeemidrisi@protonmail.com">
-                azeemidrisi@protonmail.com
+              <a
+                href="mailto:azeemidrisiofficial@gmail.com
+"
+              >
+                azeemidrisiofficial@gmail.com
               </a>
             </motion.p>
           </div>

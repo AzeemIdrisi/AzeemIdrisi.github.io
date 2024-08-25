@@ -3,7 +3,7 @@ import laptopImg from "../assets/Laptop.png";
 import { motion } from "framer-motion";
 function Contact() {
   return (
-    <div className="border-b border-neutral-900 pb-20">
+    <div className="border-b border-neutral-900 py-16">
       <motion.h2
         id="contact"
         initial={{ y: -50, opacity: 0 }}

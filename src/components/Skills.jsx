@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function Skills() {
   return (
-    <div className="border-b border-neutral-800 pb-24">
+    <div className="border-b border-neutral-900 py-16">
       <motion.h2
         initial={{ y: -50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}

@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import ExpoLogo from "../assets/Expo-Light.png";
 function Skills() {
   return (
     <div className="border-b border-neutral-900 py-16">
@@ -117,6 +117,9 @@ function Skills() {
                 src="https://skillicons.dev/icons?i=react&theme=light"
                 alt="icons"
               />
+            </a>
+            <a href="https://expo.dev/" target="_blank" rel="noreferrer">
+              <img src={ExpoLogo} alt="icons" height="48" width="48" />
             </a>
             <a
               href="https://www.kotlinlang.org/"

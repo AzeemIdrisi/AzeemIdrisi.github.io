@@ -4,6 +4,7 @@ import {
   SiAndroid,
   SiDjango,
   SiJavascript,
+  SiRedux,
   SiTypescript,
 } from "react-icons/si";
 import { motion } from "framer-motion";
@@ -58,9 +59,12 @@ function Experience() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-4 text-neutral-400"
           >
-            • Building responsive user interfaces for iOS and Android Mobile
-            devices using React Native CLI. <br /> • Debugging existing screens
-            for adaptive behavior on multiple devices.
+            • Building responsive, adaptive user interfaces for iOS and Android
+            devices using React Native CLI, and for web platforms using React
+            and Material UI, while utilizing Redux for state management. <br />{" "}
+            • Optimizing and debugging screens to ensure consistent behavior
+            across various devices and screen sizes, delivering a seamless user
+            experience.
           </motion.p>
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
@@ -76,7 +80,14 @@ function Experience() {
               <SiAndroid />
               Android
             </span>
-
+            <span className="flex gap-2 w-fit items-center justify-center mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-500 cursor-default hover:text-white transition-all duration-300">
+              <FaReact />
+              React
+            </span>
+            <span className="flex gap-2 w-fit items-center justify-center mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-500 cursor-default hover:text-white transition-all duration-300">
+              <SiRedux />
+              Redux
+            </span>
             <span className="flex gap-2 w-fit items-center justify-center mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-neutral-500 cursor-default hover:text-white transition-all duration-300">
               <SiJavascript />
               JavaScript

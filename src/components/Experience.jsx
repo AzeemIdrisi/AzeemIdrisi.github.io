@@ -24,38 +24,38 @@ function Experience() {
 
       <div className="mb-8 flex flex-wrap justify-center">
         <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5, delay: 0.3 }}
           className="w-full lg:w-1/4 pt-1"
         >
           <p className="mb-2 text-sm text-neutral-400">August 2024 - Present</p>
         </motion.div>
         <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5, delay: 0.3 }}
           className="w-full max-w-xl lg:w-3/4"
         >
           <motion.h5
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="font-bold text-xl text-slate-500"
           >
             Sekeron Technologies
           </motion.h5>
           <motion.h6
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-2 font-semibold"
           >
             Frontend Developer
           </motion.h6>
           <motion.p
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-4 text-neutral-400"
           >
@@ -67,8 +67,8 @@ function Experience() {
             experience.
           </motion.p>
           <motion.div
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-wrap justify-center lg:justify-start"
           >
@@ -105,38 +105,38 @@ function Experience() {
       </div>
       <div className="mb-8 flex flex-wrap justify-center">
         <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5, delay: 0.3 }}
           className="w-full lg:w-1/4 pt-1"
         >
           <p className="mb-2 text-sm text-neutral-400">May 2024 - June 2024 </p>
         </motion.div>
         <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5, delay: 0.3 }}
           className="w-full max-w-xl lg:w-3/4"
         >
           <motion.h5
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="font-bold text-xl text-slate-500"
           >
             Carths Group
           </motion.h5>
           <motion.h6
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-2 font-semibold"
           >
             Web Development Intern
           </motion.h6>
           <motion.p
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-4 text-neutral-400"
           >
@@ -148,8 +148,8 @@ function Experience() {
             customer engagement
           </motion.p>
           <motion.div
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-wrap justify-center lg:justify-start"
           >

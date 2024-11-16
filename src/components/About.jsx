@@ -16,8 +16,8 @@ function About() {
       </motion.h2>
       <div className="flex flex-wrap">
         <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5, delay: 0.3 }}
           className="w-full lg:w-1/2 lg:p-8"
         >
@@ -30,30 +30,45 @@ function About() {
           </div>
         </motion.div>
         <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5, delay: 0.3 }}
           className="w-full lg:w-1/2 "
         >
           <div className="my-8 lg:my-0 lg:justify-start justify-center lg:text-left text-center">
-            <p className="py-6 max-w-xl">
+            <motion.p
+              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: -100 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className="py-6 max-w-xl"
+            >
               I am a Computer Science undergraduate with a strong interest in
               technology and coding. I love to build projects and learn new
               technologies. Currently I am exploring React Native.
-            </p>
+            </motion.p>
 
-            <p className=" py-6 max-w-xl">
+            <motion.p
+              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: -100 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className=" py-6 max-w-xl"
+            >
               As an aspiring Software Development Engineer (SDE), Ethical
               Hacker, and Cybersecurity Expert, I am eager to deepen my
               understanding of computer systems and security protocols.
-            </p>
+            </motion.p>
 
-            <p className=" py-6 max-w-xl">
+            <motion.p
+              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: -100 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className=" py-6 max-w-xl"
+            >
               My goal is not only to excel in coding and software development
               but also to contribute to the ever-evolving field of
               cybersecurity, playing a crucial role in securing the digital
               landscape.
-            </p>
+            </motion.p>
           </div>
         </motion.div>
       </div>

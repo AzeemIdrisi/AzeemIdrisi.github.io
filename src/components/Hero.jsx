@@ -6,9 +6,9 @@ import { FaGithub } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
 
 const container = (delay) => ({
-  hidden: { x: -100, opacity: 0 },
+  hidden: { y: -100, opacity: 0 },
   visible: {
-    x: 0,
+    y: 0,
     opacity: 1,
     transition: { duration: 0.5, delay: delay },
   },
@@ -19,13 +19,15 @@ function Hero() {
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "Software Developer.",
-        "MERN Stack Web Developer.",
-        "React Native App Developer.",
-        "Python Developer.",
-        "Ethical Hacker.",
-        "Competitive Coder.",
-        "Youtuber.",
+        "Software Developer",
+        "Ethical Hacker",
+        "MERN Stack Web Developer",
+        "Youtuber",
+        "Python Developer",
+        "React Native App Developer",
+        "Django Developer",
+        "Frontend Developer",
+        "Full Stack Developer",
       ],
       typeSpeed: 50,
       loop: true,
@@ -83,8 +85,8 @@ function Hero() {
               innovate in the world of technology.
             </motion.p>
             <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: -100 }}
               transition={{ duration: 0.5, delay: 0.3 }}
               className="flex flex-row flex-wrap items-center justify-start gap-5 mt-8"
             >
@@ -107,9 +109,9 @@ function Hero() {
         <div className="w-full lg:w-1/2 lg:p-8 overflow-hidden">
           <div className="flex justify-center">
             <motion.img
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.5 }}
+              initial={{ y: -100, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 1 }}
               src={memojiPic}
               className="lg:h-96 lg:min-w-96 h-80 min-h-80 "
             />

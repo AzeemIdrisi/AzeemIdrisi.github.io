@@ -15,30 +15,30 @@ function Education() {
 
       <div className="mb-8 flex flex-wrap justify-center lg:gap-48 gap-20">
         <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5, delay: 0.3 }}
           className=" max-w-xl"
         >
           <motion.h5
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="font-bold text-xl text-slate-500"
           >
             Dr. A.P.J. Abdul Kalam Technical University
           </motion.h5>
           <motion.h6
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-2 font-semibold"
           >
             B.Tech in Computer Science & Engineering
           </motion.h6>
           <motion.p
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-4 text-neutral-400"
           >
@@ -47,30 +47,30 @@ function Education() {
           </motion.p>
         </motion.div>
         <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5, delay: 0.3 }}
           className=" max-w-xl"
         >
           <motion.h5
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="font-bold text-xl text-slate-500"
           >
             Central Board of Secondary Education
           </motion.h5>
           <motion.h6
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-2 font-semibold"
           >
             10+2 PCMB
           </motion.h6>
           <motion.p
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-4 text-neutral-400"
           >

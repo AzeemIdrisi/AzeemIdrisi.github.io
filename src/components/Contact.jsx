@@ -16,8 +16,8 @@ function Contact() {
       </motion.h2>
       <div className="text-center tracking-tighter flex flex-wrap gap-20 items-center justify-center w-full">
         <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5, delay: 0.3 }}
           className="pb-10"
         >
@@ -26,16 +26,16 @@ function Contact() {
         <div>
           <div className="mt-8">
             <motion.h6
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: -100 }}
               transition={{ duration: 0.5, delay: 0.3 }}
               className="font-semibold text-neutral-400 text-sm "
             >
               Business Email
             </motion.h6>
             <motion.p
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: -100 }}
               transition={{ duration: 0.5, delay: 0.3 }}
               className="my-1 text-xl"
             >
@@ -49,16 +49,16 @@ function Contact() {
           </div>
           <div className="mt-8">
             <motion.h6
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: -100 }}
               transition={{ duration: 0.5, delay: 0.3 }}
               className="font-semibold text-neutral-400 text-sm"
             >
               Linktree
             </motion.h6>
             <motion.p
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, y: -0 }}
+              initial={{ opacity: 0, y: -100 }}
               transition={{ duration: 0.5, delay: 0.3 }}
               className="my-1 text-xl"
             >

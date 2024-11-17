@@ -62,7 +62,9 @@ function Contact() {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="my-1 text-xl"
             >
-              <a href="https://linktr.ee/AzeemIdrisi">linktr.ee/AzeemIdrisi</a>
+              <a href="https://linktr.ee/AzeemIdrisi" target="_blank">
+                linktr.ee/AzeemIdrisi
+              </a>
             </motion.p>
           </div>
         </div>

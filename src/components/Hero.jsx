@@ -90,7 +90,7 @@ function Hero() {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="flex flex-row flex-wrap items-center justify-start gap-5 mt-8"
             >
-              <a href="https://github.com/AzeemIdrisi">
+              <a href="https://github.com/AzeemIdrisi" target="_blank">
                 {" "}
                 <h2 className="border-2 border-neutral-300 rounded-full px-4 py-2 font-semibold flex justify-center items-center gap-2 hover:bg-white hover:text-black hover:border-white transition-all duration-500 cursor-pointer">
                   <FaGithub />

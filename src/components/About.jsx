@@ -53,9 +53,9 @@ function About() {
               transition={{ duration: 0.5, delay: 0.3 }}
               className=" py-6 max-w-xl"
             >
-              As an aspiring Software Development Engineer (SDE), Ethical
-              Hacker, and Cybersecurity Expert, I am eager to deepen my
-              understanding of computer systems and security protocols.
+              As an aspiring Software Engineer, Ethical Hacker, and Security
+              Researcher, I am eager to deepen my understanding of computer
+              systems and security protocols.
             </motion.p>
 
             <motion.p
@@ -65,7 +65,7 @@ function About() {
               className=" py-6 max-w-xl"
             >
               My goal is not only to excel in coding and software development
-              but also to contribute to the ever-evolving field of
+              but also to innovate and contribute to the ever-evolving field of
               cybersecurity, playing a crucial role in securing the digital
               landscape.
             </motion.p>

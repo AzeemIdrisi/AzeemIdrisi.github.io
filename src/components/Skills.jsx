@@ -102,6 +102,13 @@ function Skills() {
             <a href="https://expressjs.com/" target="_blank" rel="noreferrer">
               <img src="https://skillicons.dev/icons?i=express" alt="icons" />
             </a>
+            <a
+              href="https://redux-toolkit.js.org/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="https://skillicons.dev/icons?i=redux" alt="icons" />
+            </a>
           </div>
         </motion.div>
         <motion.div
@@ -127,6 +134,16 @@ function Skills() {
               rel="noreferrer"
             >
               <img src="https://skillicons.dev/icons?i=kotlin" alt="icons" />
+            </a>
+            <a
+              href="https://developer.android.com/studio/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://skillicons.dev/icons?i=androidstudio"
+                alt="icons"
+              />
             </a>
           </div>
         </motion.div>
@@ -160,15 +177,8 @@ function Skills() {
             <a href="https://github.com/" target="_blank" rel="noreferrer">
               <img src="https://skillicons.dev/icons?i=github" alt="icons" />
             </a>
-            <a
-              href="https://developer.android.com/studio/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="https://skillicons.dev/icons?i=androidstudio"
-                alt="icons"
-              />
+            <a href="https://bitbucket.com/" target="_blank" rel="noreferrer">
+              <img src="https://skillicons.dev/icons?i=bitbucket" alt="icons" />
             </a>
             <a
               href="https://code.visualstudio.com/"

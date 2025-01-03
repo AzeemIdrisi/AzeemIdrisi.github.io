@@ -17,6 +17,7 @@ import {
   SiCss3,
   SiOpencv,
   SiGithubactions,
+  SiExpo,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 import ProjectItem from "./ProjectItem";
@@ -49,6 +50,45 @@ function Projects() {
           <>
             <SiPython />
             Python
+          </>
+        </TechItem>
+      </ProjectItem>
+      <ProjectItem
+        link={
+          "https://play.google.com/store/apps/details?id=com.alphacorp.campusconnect"
+        }
+        title={"IPEC Campus Connect"}
+        description={
+          "Social networking Android application to anonymously interact with college students."
+        }
+        img={
+          "https://play-lh.googleusercontent.com/MIQZSkF--3C7Q_7voMOkl_d_s5UKrB3pQ8nwaiQyd6h7Acdvgcsd7BlSZ38JMxgeDA=w480-h960-rw"
+        }
+      >
+        <TechItem>
+          <>
+            <SiReact />
+            React Native
+          </>
+          <>
+            <SiExpo />
+            Expo
+          </>
+          <>
+            <SiNodedotjs />
+            Node.js
+          </>
+          <>
+            <SiExpress />
+            Express.js
+          </>
+          <>
+            <SiMongodb />
+            MongoDB
+          </>
+          <>
+            <SiTailwindcss />
+            Tailwind CSS
           </>
         </TechItem>
       </ProjectItem>

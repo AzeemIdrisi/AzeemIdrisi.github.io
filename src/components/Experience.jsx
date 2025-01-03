@@ -29,7 +29,9 @@ function Experience() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="w-full lg:w-1/4 pt-1"
         >
-          <p className="mb-2 text-sm text-neutral-400">August 2024 - Present</p>
+          <p className="mb-2 text-sm text-neutral-400">
+            August 2024 - December 2024
+          </p>
         </motion.div>
         <motion.div
           whileInView={{ opacity: 1, y: 0 }}
@@ -51,7 +53,7 @@ function Experience() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-2 font-semibold"
           >
-            Frontend Developer
+            Frontend Development Intern
           </motion.h6>
           <motion.p
             whileInView={{ opacity: 1, y: 0 }}
@@ -59,12 +61,12 @@ function Experience() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-4 text-neutral-400"
           >
-            • Building responsive, adaptive user interfaces for iOS and Android
-            devices using React Native CLI, and for web platforms using React
-            and Material UI, while utilizing Redux for state management. <br />{" "}
-            • Optimizing and debugging screens to ensure consistent behavior
-            across various devices and screen sizes, delivering a seamless user
-            experience.
+            • Contributed to the development of Sekeron’s main app by designing
+            and building responsive, adaptive user interfaces for iOS and
+            Android using React Native CLI, and for web platforms using React,
+            with Redux for state management. <br /> • Optimized and debugged
+            screens to ensure consistent performance and behavior across diverse
+            devices and screen sizes, delivering a seamless user experience.
           </motion.p>
           <motion.div
             whileInView={{ opacity: 1, y: 0 }}
@@ -140,12 +142,10 @@ function Experience() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-4 text-neutral-400"
           >
-            • Developed over 5 visually appealing, responsive and functional
-            websites using HTML, CSS, JavaScript, React, Django, and Webflow.
-            <br /> • Assisted clients in establishing their online presence,
-            planning an efficient digital strategy, and integrating services,
-            resulting in a 30% increase in lead generation and a 25% boost in
-            customer engagement
+            • Developed 2 dynamic web pages using React and 3 static landing
+            pages with HTML, CSS and JavaScript.
+            <br /> • Built an admin dashboard using Django for seamless
+            functionality and management.
           </motion.p>
           <motion.div
             whileInView={{ opacity: 1, y: 0 }}

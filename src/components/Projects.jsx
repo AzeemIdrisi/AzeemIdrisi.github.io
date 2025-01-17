@@ -36,24 +36,6 @@ function Projects() {
         Projects
       </motion.h2>
       <ProjectItem
-        link={"https://github.com/AzeemIdrisi/PhoneSploit-Pro"}
-        title={"PhoneSploit Pro"}
-        description={
-          "An all-in-one hacking tool to remotely exploit Android devices using ADB and Metasploit-Framework to get a Meterpreter session."
-        }
-        screenshot
-        img={
-          "https://github.com/AzeemIdrisi/PhoneSploit-Pro/raw/main/docs/Screenshot-1.png"
-        }
-      >
-        <TechItem>
-          <>
-            <SiPython />
-            Python
-          </>
-        </TechItem>
-      </ProjectItem>
-      <ProjectItem
         link={
           "https://play.google.com/store/apps/details?id=com.alphacorp.campusconnect"
         }
@@ -250,6 +232,24 @@ function Projects() {
           <>
             <SiNodedotjs />
             Node.js
+          </>
+        </TechItem>
+      </ProjectItem>
+      <ProjectItem
+        link={"https://github.com/AzeemIdrisi/PhoneSploit-Pro"}
+        title={"PhoneSploit Pro"}
+        description={
+          "An all-in-one hacking tool to remotely exploit Android devices using ADB and Metasploit-Framework to get a Meterpreter session."
+        }
+        screenshot
+        img={
+          "https://github.com/AzeemIdrisi/PhoneSploit-Pro/raw/main/docs/Screenshot-1.png"
+        }
+      >
+        <TechItem>
+          <>
+            <SiPython />
+            Python
           </>
         </TechItem>
       </ProjectItem>

@@ -3,6 +3,7 @@ import { FaFacebook, FaXTwitter } from "react-icons/fa6";
 import laptopImg from "../assets/Laptop.png";
 import { motion } from "framer-motion";
 import { forwardRef } from "react";
+import ScrambleText from "./ScrambleText";
 
 const Contact = forwardRef((props, ref) => {
   return (
@@ -40,13 +41,17 @@ const Contact = forwardRef((props, ref) => {
               whileInView={{ opacity: 1, y: 0 }}
               initial={{ opacity: 0, y: -100 }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="my-1 text-xl"
+              className="my-1 text-xl w-80"
             >
               <a
                 href="mailto:azeemidrisiofficial@gmail.com
 "
               >
-                azeemidrisiofficial@gmail.com
+                <ScrambleText
+                  text="azeemidrisiofficial@gmail.com"
+                  duration={700}
+                  small={true}
+                />
               </a>
             </motion.p>
           </div>

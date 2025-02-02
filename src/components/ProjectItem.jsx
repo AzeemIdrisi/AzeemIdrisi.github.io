@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import ScrambleText from "./ScrambleText";
 
 function ProjectItem({ link, img, title, description, children, screenshot }) {
   return (
@@ -29,7 +30,7 @@ function ProjectItem({ link, img, title, description, children, screenshot }) {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-2 font-semibold"
           >
-            {title}
+            <ScrambleText text={title} duration={(title?.length / 2) * 100} />
           </motion.h6>
           <motion.p
             whileInView={{ opacity: 1, y: 0 }}

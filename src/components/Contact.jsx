@@ -2,9 +2,11 @@ import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 import { FaFacebook, FaXTwitter } from "react-icons/fa6";
 import laptopImg from "../assets/Laptop.png";
 import { motion } from "framer-motion";
-function Contact() {
+import { forwardRef } from "react";
+
+const Contact = forwardRef((props, ref) => {
   return (
-    <div className="border-b border-neutral-900 py-16">
+    <div ref={ref} className="border-b border-neutral-900 py-16">
       <motion.h2
         id="contact"
         initial={{ y: -50, opacity: 0 }}
@@ -101,6 +103,6 @@ function Contact() {
       </div>
     </div>
   );
-}
+});
 
 export default Contact;

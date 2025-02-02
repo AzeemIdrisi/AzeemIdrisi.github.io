@@ -12,7 +12,7 @@ function Skills() {
       >
         Skills
       </motion.h2>
-      <div className="flex max-w-3xl mx-auto  flex-wrap items-center justify-center gap-5">
+      <div className="flex max-w-4xl mx-auto  flex-wrap items-center justify-center gap-5">
         <motion.div
           initial={{ y: -50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
@@ -46,6 +46,16 @@ function Skills() {
             >
               <img
                 src="https://skillicons.dev/icons?i=javascript"
+                alt="icons"
+              />
+            </a>
+            <a
+              href="https://www.typescriptlang.org/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://skillicons.dev/icons?i=typescript"
                 alt="icons"
               />
             </a>
@@ -189,6 +199,12 @@ function Skills() {
             </a>
             <a href="https://www.postman.com/" target="_blank" rel="noreferrer">
               <img src="https://skillicons.dev/icons?i=postman" alt="icons" />
+            </a>
+            <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
+              <img src="https://skillicons.dev/icons?i=docker" alt="icons" />
+            </a>
+            <a href="https://www.npmjs.com/" target="_blank" rel="noreferrer">
+              <img src="https://skillicons.dev/icons?i=npm" alt="icons" />
             </a>
             <a
               href="https://www.adobe.com/uk/products/photoshop.html"

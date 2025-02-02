@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./index.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -11,6 +11,14 @@ import Footer from "./components/Footer";
 import Education from "./components/Education";
 
 function App() {
+  const contactRef = useRef(null);
+
+  const handleContactPress = () => {
+    if (contactRef.current) {
+      contactRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
       <div className="w-full h-full -z-10 fixed top-0">
@@ -18,13 +26,13 @@ function App() {
       </div>
       <div className="px-10 8 m-auto container">
         <Navbar />
-        <Hero />
+        <Hero handleContactPress={handleContactPress} />
         <About />
         <Skills />
         <Education />
         <Experience />
         <Projects />
-        <Contact />
+        <Contact ref={contactRef} />
         <Footer />
       </div>
     </div>

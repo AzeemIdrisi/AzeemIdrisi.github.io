@@ -13,7 +13,7 @@ const container = (delay) => ({
     transition: { duration: 0.5, delay: delay },
   },
 });
-function Hero() {
+function Hero({ handleContactPress }) {
   const el = React.useRef(null);
 
   React.useEffect(() => {
@@ -97,12 +97,12 @@ function Hero() {
                   Visit GitHub
                 </h2>
               </a>
-              <a href="#contact">
+              <p onClick={handleContactPress}>
                 <h2 className="border-2 border-neutral-300 rounded-full px-4 py-2 font-semibold flex justify-center items-center gap-1  hover:bg-white hover:text-black hover:border-white transition-all duration-500 cursor-pointer">
                   <MdAlternateEmail />
                   Contact Me
                 </h2>
-              </a>
+              </p>
             </motion.div>
           </div>
         </div>

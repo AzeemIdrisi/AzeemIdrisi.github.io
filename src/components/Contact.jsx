@@ -41,7 +41,7 @@ const Contact = forwardRef((props, ref) => {
               whileInView={{ opacity: 1, y: 0 }}
               initial={{ opacity: 0, y: -100 }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="my-1 text-xl w-80"
+              className="my-1 text-xl w-64"
             >
               <a
                 href="mailto:azeemidrisiofficial@gmail.com
